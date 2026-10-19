@@ -1,0 +1,80 @@
+# =========================================================================
+# C# / .NET / Visual Studio Build Exclusions
+# =========================================================================
+
+# Build results and compiled binaries
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Enhanced wildcards for deep bin/obj folders
+**/[Bb]in/*
+**/[Oo]bj/*
+
+# =========================================================================
+# IDE & User-Specific Settings (Visual Studio, VS Code, Rider)
+# =========================================================================
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vssscc
+*.vspscc
+
+# Visual Studio Code settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains Rider / Resharper
+.idea/
+*.sln.DotSettings.user
+_ReSharper*/
+
+# =========================================================================
+# Package Management & Dependencies
+# =========================================================================
+
+# NuGet packages directory (if using packages.config framework)
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Frontend dependencies (if building an ASP.NET Core MVC/Blazor web app)
+node_modules/
+/wwwroot/lib/
+
+# =========================================================================
+# Testing, Diagnostics & OS
+# =========================================================================
+
+# Test results and coverage reports
+BenchmarkDotNet.Artifacts/
+TestResults/
+*.debugger
+*.log
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================================
+# Secrets & Configurations (CRITICAL)
+# =========================================================================
+# Uncomment if you want to keep your development secrets strictly local
+# appsettings.Development.json
