@@ -16,3 +16,9 @@ Console.WriteLine(string.Join(", ", new TripletSumToZero().TripletSum(new int[] 
 Console.WriteLine("IsPalindrome");
 Console.WriteLine(new Palindrome().IsPalindrome("a dog! a panic in a pagoda."));
 Console.WriteLine(new Palindrome().IsPalindrome("abc123"));
+
+Console.WriteLine("ShiftZerosToTheEnd");
+Console.WriteLine(string.Join(", ", new ShiftZerosToTheEnd().ShiftZerosToEndTry1(new int[] { 0, 1, 0, 3, 2 })));
+Console.WriteLine(string.Join(", ", new ShiftZerosToTheEnd().ShiftZerosToEndTry1(new int[] { 0, 0, 0, 0, 1 })));
+Console.WriteLine(string.Join(", ", new ShiftZerosToTheEnd().ShiftZerosToEndTry1(new int[] { 1,2 })));
+Console.WriteLine(string.Join(", ", new ShiftZerosToTheEnd().ShiftZerosToEndTry1(new int[] { 1, 1 })));
